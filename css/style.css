@@ -209,10 +209,23 @@ form {
 }
 
 form input,
-form textarea {
+form textarea,
+form button {
   font-family: var(--Font-montserrat);
   padding: 1rem;
   margin-bottom: 0.5rem;
+}
+
+form button {
+  cursor: pointer;
+  border: none;
+  color: var(--color03);
+  background-color: var(--color02);
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: #c81208;
 }
 
 input:focus,
